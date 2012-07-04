@@ -2,15 +2,10 @@
 <html>
     <head>
         <title>Calculator</title>
-        <%= stylesheet_link_tag    "application" %>
-        <%= javascript_include_tag "application" %>
         <%= csrf_meta_tags %>
         <%= netzke_init :ext_theme => 'gray' %>
     </head>
     <body>
-
-        <%= netzke :hello_world_component %>
         <%= yield %>
-
     </body>
 </html>
